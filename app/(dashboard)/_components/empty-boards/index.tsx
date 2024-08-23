@@ -28,7 +28,7 @@ export const EmptyBoards = () => {
     <div className='h-full flex flex-col items-center justify-center'>
       <h2 className='text-2xl font-semibold mt-6'>Пока нет досок</h2>
 
-      <p className='text-muted-foreground text-sm mt-2'>Начните работу создав первую доску</p>
+      <p className='text-muted-foreground text-sm mt-2'>Начните работу, создав первую доску</p>
 
       <div className='mt-6'>
         <Button disabled={isLoading} size='lg' onClick={onClickHandler}>
